@@ -17,11 +17,11 @@ export const translations = {
     // Hero Section
     hero: {
       greeting: "Hi, I'm",
-      name: 'Ivan Weiss Van Der Pol',
-      role: 'Data Engineer | AI Enthusiast | Python Developer',
-      subtitle: 'Technical Lead & Quality Engineering Expert',
-      description: "I'm a Data Engineer and Technical Lead with expertise in Python development, QA automation, and data engineering. Currently leading Power Apps solutions at Stoic Finch while pursuing my Computer Science degree at FP-UNA.",
-      tagline: 'Building scalable solutions with AI and automation',
+      name: 'Lourdes Nathalia Rios Delvalle',
+      role: 'Comercio Internacional | Psicología | Analista de Procesos',
+      subtitle: 'Especialista en Reclutamiento y Selección',
+      description: "Soy Licenciada en Comercio Internacional y estudiante de tercer año de Psicología. Me destaco por mi capacidad de adaptación, compromiso y entusiasmo por el aprendizaje continuo.",
+      tagline: 'Construyendo soluciones con calidad humana y responsabilidad',
       viewWork: 'View My Work',
       getInTouch: 'Get In Touch',
       availableForWork: 'Available for work',
@@ -31,7 +31,7 @@ export const translations = {
     // About Section
     about: {
       title: 'About Me',
-      subtitle: 'Data Engineer | AI Enthusiast | Python Developer',
+      subtitle: 'Comercio Internacional | Psicología | Analista de Procesos',
       highlights: {
         academic: 'Academic Excellence',
         development: 'Modern Web Development',
@@ -167,11 +167,11 @@ export const translations = {
     
     hero: {
       greeting: 'Hola, soy',
-      name: 'Ivan weiss van der pol',
-      role: 'Desarrollador de Software',
-      subtitle: 'Estudiante de Ciencias de la Computación y Desarrollador Apasionado',
-      description: 'Soy un estudiante dedicado de Ciencias de la Computación en FP-UNA en Paraguay, apasionado por crear soluciones de software innovadoras y construir aplicaciones web modernas.',
-      tagline: 'Construyendo el futuro, una línea de código a la vez',
+      name: 'Lourdes Nathalia Rios Delvalle',
+      role: 'Comercio Internacional | Psicología | Analista de Procesos',
+      subtitle: 'Especialista en Reclutamiento y Selección',
+      description: 'Soy Licenciada en Comercio Internacional y estudiante de tercer año de Psicología. Me destaco por mi capacidad de adaptación, compromiso y entusiasmo por el aprendizaje continuo.',
+      tagline: 'Construyendo soluciones con calidad humana y responsabilidad',
       viewWork: 'Ver Mi Trabajo',
       getInTouch: 'Hablemos',
       availableForWork: 'Disponible para trabajar',
@@ -180,7 +180,7 @@ export const translations = {
     
     about: {
       title: 'Sobre Mí',
-      subtitle: 'Estudiante de Ciencias de la Computación y Desarrollador Apasionado',
+      subtitle: 'Comercio Internacional | Psicología | Analista de Procesos',
       highlights: {
         academic: 'Excelencia Académica',
         development: 'Desarrollo Web Moderno',
@@ -310,9 +310,9 @@ export const translations = {
     
     hero: {
       greeting: 'Oi, eu sou',
-      name: 'Ivan weiss van der pol',
-      role: 'Desenvolvedor de Software',
-      subtitle: 'Estudante de Ciência da Computação e Desenvolvedor Apaixonado',
+      name: 'Lourdes Nathalia Rios Delvalle',
+      role: 'Comércio Internacional | Psicologia | Analista de Processos',
+      subtitle: 'Especialista em Recrutamento e Seleção',
       description: 'Sou um estudante dedicado de Ciência da Computação na FP-UNA no Paraguai, apaixonado por criar soluções de software inovadoras e construir aplicações web modernas.',
       tagline: 'Construindo o futuro, uma linha de código por vez',
       viewWork: 'Ver Meu Trabalho',
@@ -323,7 +323,7 @@ export const translations = {
     
     about: {
       title: 'Sobre Mim',
-      subtitle: 'Estudante de Ciência da Computação e Desenvolvedor Apaixonado',
+      subtitle: 'Comércio Internacional | Psicologia | Analista de Processos',
       highlights: {
         academic: 'Excelência Acadêmica',
         development: 'Desenvolvimento Web Moderno',
@@ -378,9 +378,9 @@ export const translations = {
     
     hero: {
       greeting: 'Salut, je suis',
-      name: 'Ivan weiss van der pol',
-      role: 'Développeur de Logiciels',
-      subtitle: 'Étudiant en Informatique et Développeur Passionné',
+      name: 'Lourdes Nathalia Rios Delvalle',
+      role: 'Commerce International | Psychologie | Analyste de Processus',
+      subtitle: 'Spécialiste en Recrutement et Sélection',
       description: "Je suis un étudiant dévoué en informatique à FP-UNA au Paraguay, passionné par la création de solutions logicielles innovantes et la construction d'applications web modernes.",
       tagline: 'Construire l\'avenir, une ligne de code à la fois',
       viewWork: 'Voir Mon Travail',
@@ -391,7 +391,7 @@ export const translations = {
     
     about: {
       title: 'À Propos de Moi',
-      subtitle: 'Étudiant en Informatique et Développeur Passionné',
+      subtitle: 'Commerce International | Psychologie | Analyste de Processus',
       highlights: {
         academic: 'Excellence Académique',
         development: 'Développement Web Moderne',
