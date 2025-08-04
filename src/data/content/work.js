@@ -2,8 +2,8 @@
 export const workData = {
   // Section configuration
   sectionId: "work",
-  title: "Work Experience",
-  subtitle: "My professional journey and career highlights",
+  title: "Experiencia Profesional",
+  subtitle: "Mi trayectoria profesional y logros destacados",
   
   // Layout configuration
   layout: {
@@ -14,197 +14,152 @@ export const workData = {
   // Work experiences (ordered by most recent first)
   experiences: [
     {
-      id: "stoic-finch-technical-lead",
-      company: "Stoic Finch",
-      position: "Technical Lead - Sturgeon County Project",
-      duration: "October 2024 - Present",
-      location: "Remote",
-      type: "Contract",
+      id: "hello-there-analista-procesos",
+      company: "Hello There",
+      position: "Analista de Procesos, Ventas y Experiencia del Cliente",
+      duration: "04/jun/2020 - 31/12/2024",
+      location: "Paraguay",
+      type: "Tiempo completo",
+      status: "completed",
+      
+      description: "Gestioné procesos comerciales integrales, incluyendo compras, ventas, atención al cliente y postventa, asegurando calidad y satisfacción. Coordiné múltiples tareas simultáneamente, implementando mejoras continuas y optimizando procesos logísticos.",
+      
+      responsibilities: [
+        "Gestión de procesos comerciales integrales incluyendo compras, ventas y atención al cliente",
+        "Coordinación de múltiples tareas simultáneamente",
+        "Implementación de mejoras continuas en procesos",
+        "Optimización de procesos logísticos y tiempos de entrega",
+        "Resolución de incidencias y atención postventa"
+      ],
+      
+      technologies: [
+        "Gestión de Procesos", "Atención al Cliente", "Ventas", 
+        "Logística", "Mejora Continua", "Experiencia del Cliente"
+      ],
+      
+      achievements: [
+        "Optimización de procesos logísticos y tiempos de entrega",
+        "Mejora continua en la experiencia del cliente",
+        "Coordinación eficiente de múltiples procesos simultáneos",
+        "Implementación exitosa de mejoras en procesos comerciales"
+      ],
+      
+      companyInfo: {
+        website: "#",
+        industry: "Comercio y Servicios",
+        size: "Mediana Empresa",
+        logo: "/src/data/Logo/hello_there_logo.png"
+      }
+    },
+    
+    {
+      id: "e-e-economia-estadistica",
+      company: "E+E Economia y Estadistica para el Desarrollo",
+      position: "Analista de Procesos y Control de Calidad de Datos (Proyectos Sociales y Educativos)",
+      duration: "02/ene/2024 - 31/oct/2024",
+      location: "Paraguay",
+      type: "Proyecto",
+      status: "completed",
+      
+      description: "Participé en procesos de selección y control de calidad en proyectos educativos y encuestas, liderando equipos y asegurando el cumplimiento de protocolos. Brindé soporte logístico y técnico para garantizar la integridad y confiabilidad de los datos.",
+      
+      responsibilities: [
+        "Participación en procesos de selección y control de calidad",
+        "Liderazgo de equipos en proyectos educativos",
+        "Aseguramiento del cumplimiento de protocolos establecidos",
+        "Soporte logístico y técnico para proyectos",
+        "Garantía de integridad y confiabilidad de datos"
+      ],
+      
+      technologies: [
+        "Control de Calidad", "Análisis de Datos", "Gestión de Proyectos Sociales", 
+        "Liderazgo de Equipos", "Protocolos de Calidad", "Soporte Logístico"
+      ],
+      
+      achievements: [
+        "Liderazgo exitoso de equipos en proyectos educativos",
+        "Cumplimiento del 100% de protocolos de calidad establecidos",
+        "Garantía de integridad y confiabilidad en el manejo de datos",
+        "Implementación efectiva de soporte logístico y técnico"
+      ],
+      
+      companyInfo: {
+        website: "#",
+        industry: "Investigación y Desarrollo Social",
+        size: "Organización Especializada",
+        logo: "/src/data/Logo/e_e_logo.png"
+      }
+    },
+    
+    {
+      id: "freelance-reclutamiento",
+      company: "Freelance",
+      position: "Analista de Búsqueda y Selección",
+      duration: "2025 - Presente",
+      location: "Paraguay",
+      type: "Freelance",
       status: "current",
       
-      description: "Successfully led a cross-functional team of developers, analysts, and stakeholders to deliver a robust and innovative Power Apps solution tailored for Sturgeon County's unique operational needs.",
+      description: "Ejecuté y gestioné procesos completos de reclutamiento para perfiles de distintos niveles, desde el levantamiento del perfil hasta el feedback final, optimizando etapas, cumpliendo KPIs y garantizando una experiencia positiva y eficiente para candidatos y líderes.",
       
       responsibilities: [
-        "Architected and implemented essential core functionalities, including task management, case handling, and role-based access control",
-        "Developed and optimized backend automation workflows using Power Automate",
-        "Seamlessly integrated SharePoint for centralized document management",
-        "Collaborated closely with a UI/UX developer to enhance the application's design"
+        "Ejecución de procesos completos de reclutamiento y selección",
+        "Levantamiento de perfiles para distintos niveles organizacionales",
+        "Optimización de etapas del proceso de selección",
+        "Cumplimiento de KPIs establecidos",
+        "Garantía de experiencia positiva para candidatos y líderes",
+        "Feedback final y seguimiento de procesos"
       ],
       
       technologies: [
-        "Power Apps Development", "Workflow Automation", "Power BI Dashboards", 
-        "SharePoint Integration", "Technical Leadership", "Power Automate"
+        "Herramientas de Selección", "Herramientas de Sourcing", "LinkedIn Recruiter", 
+        "Excel", "SuccessFactors", "SAP"
       ],
       
       achievements: [
-        "Enhanced operational efficiency by 40% across 5+ departments through automated workflows",
-        "Reduced case processing time by 60% through streamlined creation and assignment processes",
-        "Improved document management efficiency by 50% with centralized SharePoint integration",
-        "Increased user satisfaction by 85% through intuitive UI/UX design improvements",
-        "Led cross-functional team of 8+ developers, analysts, and stakeholders to successful delivery"
+        "Gestión exitosa de procesos de reclutamiento para múltiples perfiles",
+        "Optimización eficiente de etapas del proceso de selección",
+        "Cumplimiento consistente de KPIs y deadlines",
+        "Mantenimiento de experiencia positiva para todos los stakeholders"
       ],
       
       companyInfo: {
         website: "#",
-        industry: "Technology Consulting",
-        size: "Technology Company",
-        logo: "/src/data/Logo/Stoic_Finch_logo.jpg",
-        clientLogo: "/src/data/Logo/Sturgeon_County_logo.png"
-      }
-    },
-    
-    {
-      id: "mentormate-quality-engineer",
-      company: "MentorMate",
-      position: "Quality Engineer II - Professional Development",
-      duration: "August 2023 - October 2024",
-      location: "Remote",
-      type: "Full-time",
-      status: "completed",
-      
-      description: "Engaged in a comprehensive professional development program, significantly enhancing expertise in QA methodologies, compliance standards, and automation techniques.",
-      
-      responsibilities: [
-        "Participated in various training programs and workshops on advanced QA tools",
-        "Collaborated with global teams across Paraguay, USA, and Bulgaria",
-        "Assisted in training bootcamps focused on API Testing using Postman",
-        "Led automation of JSON to XLSX data conversion for client therapy data management",
-        "Mentored junior QA engineers on automation best practices"
-      ],
-      
-      technologies: [
-        "Postman", "Charles Proxy", "MongoDB", "TestRail", "API Testing",
-        "Generative AI", "Test Automation", "JSON Processing", "Data Management"
-      ],
-      
-      achievements: [
-        "Achieved 95% proficiency across 12+ advanced QA tools and technologies",
-        "Successfully collaborated with global teams across 3 countries (Paraguay, USA, Bulgaria)",
-        "Reduced test case generation time by 70% using Generative AI automation",
-        "Increased test coverage by 45% for complex healthcare workflows",
-        "Improved data processing efficiency by 80% through JSON to XLSX automation pipeline",
-        "Mentored 5+ junior QA engineers on automation best practices"
-      ],
-      
-      companyInfo: {
-        website: "#",
-        industry: "Software Development",
-        size: "Large Enterprise",
-        logo: "/src/data/Logo/mentormate_logo.jpeg"
-      }
-    },
-    
-    {
-      id: "mentormate-flyte-project",
-      company: "MentorMate",
-      position: "Quality Specialist II - Flyte Project",
-      duration: "August 2023 - October 2024",
-      location: "Remote",
-      type: "Full-time",
-      status: "completed",
-      
-      description: "Oversaw quality assurance for the Flyte Project, focusing on a website, mobile application, and FDA-cleared device to improve women's pelvic health.",
-      
-      responsibilities: [
-        "Collaborated with developers and project managers for seamless feature integration",
-        "Managed detailed documentation for industry compliance",
-        "Developed test plans and strategies for product reliability",
-        "Executed test cases using Postman for API interactions",
-        "Generated test data in MongoDB for various patient scenarios",
-        "Tested mobile application with Bluetooth connectivity and physician website"
-      ],
-      
-      technologies: [
-        "Postman", "MongoDB", "Bluetooth Testing", "Mobile Testing",
-        "API Testing", "FDA Compliance", "Test Documentation", "Risk Assessment"
-      ],
-      
-      achievements: [
-        "Achieved 100% FDA compliance for medical device software across 3 platforms",
-        "Maintained 99.5% uptime and high-quality user experiences across web and mobile platforms",
-        "Enhanced testing robustness by 60% through comprehensive MongoDB test data scenarios",
-        "Reduced communication overhead by 30% through effective documentation and stakeholder alignment",
-        "Improved feature adoption rate by 75% through comprehensive training materials and user guides"
-      ],
-      
-      companyInfo: {
-        website: "#",
-        industry: "Healthcare Technology",
-        size: "Large Enterprise",
-        logo: "/src/data/Logo/mentormate_logo.jpeg",
-        projectLogo: "/src/data/Logo/Flyte_logo.jpeg"
-      }
-    },
-    
-    {
-      id: "wpg-qa-developer",
-      company: "WPG.srl",
-      position: "QA Engineer and Software Developer",
-      duration: "October 2018 - December 2022",
-      location: "Paraguay",
-      type: "Full-time",
-      status: "completed",
-      
-      description: "Performed comprehensive manual and automated testing, ensuring all new software features met quality standards before release while contributing to development efforts.",
-      
-      responsibilities: [
-        "Performed comprehensive manual and automated testing",
-        "Participated in multiple stages of the software development lifecycle",
-        "Created and updated documentation for testing protocols and features",
-        "Developed Python tools for test data generation and XML processing",
-        "Automated report generation to minimize manual effort"
-      ],
-      
-      technologies: [
-        "Python", "Test Automation", "XML Processing", "Software Testing",
-        "Software Development", "Machine Learning", "Documentation"
-      ],
-      
-      achievements: [
-        "Maintained 100% quality standards across 50+ software releases over 4 years",
-        "Contributed to 25+ system architecture improvements and functionality enhancements",
-        "Reduced manual testing effort by 85% through Python automation tools",
-        "Increased testing efficiency by 300% through automated report generation and XML processing",
-        "Created comprehensive documentation suite covering 90% of testing protocols and features"
-      ],
-      
-      companyInfo: {
-        website: "#",
-        industry: "Software Development",
-        size: "Small-Medium Enterprise",
-        logo: "/src/data/Logo/wpg_logo.jpeg"
+        industry: "Recursos Humanos",
+        size: "Servicios Independientes",
+        logo: "/src/data/Logo/freelance_logo.png"
       }
     }
   ],
   
   // Skills gained through work experience
   skillsGained: [
-    "Technical Leadership",
-    "Quality Assurance",
-    "Test Automation",
-    "Project Management",
-    "Cross-Cultural Collaboration",
-    "FDA Compliance",
-    "API Testing",
-    "Power Platform Development",
-    "Python Development",
-    "Documentation Management"
+    "Reclutamiento y Selección",
+    "Gestión de Procesos",
+    "Atención al Cliente",
+    "Control de Calidad",
+    "Liderazgo de Equipos",
+    "Análisis de Datos",
+    "Sourcing",
+    "Mejora Continua",
+    "Gestión de Stakeholders",
+    "Experiencia del Cliente"
   ],
   
   // Work statistics
   statistics: {
-    totalProjects: 5,
-    professionalPositions: 4,
-    technologiesUsed: 25,
-    yearsOfExperience: "6+",
-    internationalExperience: 3
+    totalProjects: 3,
+    professionalPositions: 3,
+    technologiesUsed: 15,
+    yearsOfExperience: "4+",
+    specializations: 2
   },
   
   // Call to action for work section
   callToAction: {
-    title: "Let's Work Together",
-    description: "I'm always interested in new opportunities and challenging projects. Whether you need a technical leader, quality engineer, or data specialist, I'd love to hear from you.",
-    buttonText: "Get In Touch",
+    title: "Trabajemos Juntos",
+    description: "Siempre estoy interesada en nuevas oportunidades y proyectos desafiantes. Ya sea que necesites un analista de procesos, especialista en reclutamiento, o apoyo en proyectos de calidad, me encantaria escucharte.",
+    buttonText: "Contáctame",
     buttonLink: "#contact"
   }
 };

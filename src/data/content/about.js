@@ -2,101 +2,101 @@
 export const aboutData = {
   // Section configuration
   sectionId: "about",
-  title: "About Me",
-  subtitle: "Data Engineer | AI Enthusiast | Python Developer",
+  title: "Acerca de Mí",
+  subtitle: "Comercio Internacional | Psicología | Analista de Procesos",
   
   // Enhanced personal summary
   summary: {
-    intro: "I am a versatile and results-driven Software Developer with a strong background in software engineering, QA automation, and project management. My expertise spans multiple programming languages, automation tools, and data analysis frameworks, with a focus on delivering innovative, efficient, and scalable solutions. I thrive in environments that challenge me to improve system reliability, streamline workflows, and leverage AI technologies for impactful results.",
-    focus: "Currently specializing in Technical Leadership, Data Engineering, and QA Automation. My expertise spans Python development (98% proficiency), test automation frameworks, Apache Spark, ETL pipelines, and cloud-based solutions. I've led cross-functional teams, implemented FDA-compliant healthcare solutions, and developed innovative AI-powered automation tools.",
-    goals: "My goal is to continue advancing in technical leadership and data engineering while leveraging AI and automation to solve complex challenges. I'm passionate about building robust, scalable systems, mentoring teams, and driving innovation through technology. I aim to bridge cutting-edge technology with practical business solutions that make a real impact."
+    intro: "Soy Licenciada en Comercio Internacional y estudiante de tercer año de Psicología. Me destaco por mi capacidad de adaptación, compromiso y entusiasmo por el aprendizaje continuo. Poseo habilidades sólidas para el trabajo en equipo, la proactividad y la resolución de problemas. Busco una oportunidad que me permita seguir creciendo profesionalmente, aportando valor a la organización con calidad humana y responsabilidad.",
+    focus: "Actualmente me especializo en Reclutamiento y Selección, Gestión de Procesos y Control de Calidad. Mi experiencia abarca desde procesos completos de reclutamiento hasta la gestión de procesos comerciales integrales, control de calidad de datos en proyectos sociales y educativos, y atención al cliente con enfoque en la experiencia del usuario.",
+    goals: "Mi objetivo es continuar desarrollándome en el área de recursos humanos y psicología organizacional, aplicando mis conocimientos en comercio internacional para aportar una perspectiva integral a los procesos de selección y gestión del talento. Busco oportunidades que me permitan combinar mis habilidades técnicas con mi formación en psicología para crear soluciones innovadoras en recursos humanos."
   },
   
   // Enhanced key highlights
   highlights: [
     {
-      title: "Technical Leadership",
-      description: "Leading cross-functional teams at Stoic Finch, architecting Power Apps solutions with SharePoint integration and workflow automation",
-      icon: "fa-users-cog",
-      image: "/images/highlights/automation.jpg"
+      title: "Reclutamiento y Selección",
+      description: "Experiencia en procesos completos de reclutamiento para perfiles de distintos niveles, optimizando etapas y garantizando experiencia positiva para candidatos y líderes",
+      icon: "fa-users",
+      image: "/images/highlights/recruitment.jpg"
     },
     {
-      title: "Data Engineering Excellence",
-      description: "Expert in Python, PySpark, Apache Spark, and ETL pipelines with 90% proficiency in building scalable data processing systems",
-      icon: "fa-database",
-      image: "/images/highlights/data-engineering.jpg"
+      title: "Gestión de Procesos",
+      description: "Especialización en gestión de procesos comerciales integrales, mejora continua y optimización de workflows organizacionales",
+      icon: "fa-cogs",
+      image: "/images/highlights/processes.jpg"
     },
     {
-      title: "QA Automation Mastery",
-      description: "95% proficiency in test automation with expertise in Selenium, PyTest, Jenkins, and AI-powered testing strategies",
-      icon: "fa-bug",
-      image: "/images/highlights/backend.jpg"
+      title: "Control de Calidad",
+      description: "Experiencia en control de calidad en proyectos educativos y encuestas, asegurando cumplimiento de protocolos y confiabilidad de datos",
+      icon: "fa-check-circle",
+      image: "/images/highlights/quality.jpg"
     },
     {
-      title: "International Recognition",
-      description: "NASA Galactic Problem Solver award winner, BECAL scholarship recipient, and contributor to global innovation initiatives",
-      icon: "fa-trophy",
-      image: "/images/highlights/international.jpg"
+      title: "Atención al Cliente",
+      description: "Sólida experiencia en atención al cliente, ventas y postventa, enfocada en la mejora continua de la experiencia del usuario",
+      icon: "fa-handshake",
+      image: "/images/highlights/customer-service.jpg"
     },
     {
-      title: "Academic Excellence",
-      description: "Top placements in national programming competitions while maintaining strong academic performance at FP-UNA",
+      title: "Formación Académica",
+      description: "Licenciada en Comercio Internacional y estudiante avanzada de Psicología, combinando perspectiva empresarial con comprensión del comportamiento humano",
       icon: "fa-graduation-cap",
       image: "/images/highlights/academic.jpg"
     },
     {
-      title: "Healthcare Innovation",
-      description: "Developed FDA-compliant testing solutions for medical devices and healthcare applications at MentorMate",
-      icon: "fa-heartbeat",
-      image: "/images/highlights/cybersecurity.jpg"
+      title: "Herramientas Especializadas",
+      description: "Manejo de herramientas de selección, sourcing, Excel, SuccessFactors, LinkedIn Recruiter y SAP para optimizar procesos de recursos humanos",
+      icon: "fa-tools",
+      image: "/images/highlights/tools.jpg"
     }
   ],
   
   // Enhanced current focus areas
   currentFocus: [
-    "Technical Leadership and Team Management",
-    "Power Platform Development (Power Apps, Power Automate, Power BI)",
-    "Python Development and Automation (98% proficiency)",
-    "QA Automation and Test Engineering (95% proficiency)",
-    "Data Engineering with Apache Spark and Databricks",
-    "AI-Powered Solutions and Prompt Engineering",
-    "FDA Compliance and Healthcare Technology",
-    "Cross-cultural Team Collaboration"
+    "Reclutamiento y Selección de Personal",
+    "Gestión y Optimización de Procesos",
+    "Control de Calidad en Proyectos",
+    "Atención al Cliente y Experiencia del Usuario",
+    "Herramientas de Sourcing y Selección",
+    "Análisis de Datos y Reportes",
+    "Psicología Organizacional",
+    "Colaboración con Equipos Multidisciplinarios"
   ],
   
   // Personal interests and values
   interests: [
-    "AI and Machine Learning Applications",
-    "Test Automation Innovation",
-    "Open Source Contribution",
-    "Technical Mentorship and Knowledge Sharing",
-    "Space Technology and NASA Challenges",
-    "Healthcare Technology Solutions",
-    "Paraguay Tech Community Development",
-    "International Collaboration"
+    "Psicología Organizacional y del Trabajo",
+    "Innovación en Procesos de Recursos Humanos",
+    "Desarrollo del Talento Humano",
+    "Metodologías de Evaluación Psicológica",
+    "Comercio Internacional y Negocios Globales",
+    "Proyectos Sociales y Educativos",
+    "Mejora Continua de Procesos",
+    "Colaboración Internacional"
   ],
   
   // Key metrics
   metrics: [
     {
-      number: "6+",
-      label: "Years Experience",
-      description: "Professional development and engineering"
-    },
-    {
-      number: "50+",
-      label: "Technologies",
-      description: "Tools and frameworks mastered"
+      number: "4+",
+      label: "Años de Experiencia",
+      description: "Desarrollo profesional en procesos y recursos humanos"
     },
     {
       number: "15+",
-      label: "Certifications",
-      description: "Professional credentials earned"
+      label: "Herramientas",
+      description: "Sistemas y herramientas especializadas"
+    },
+    {
+      number: "2",
+      label: "Carreras",
+      description: "Comercio Internacional y Psicología"
     },
     {
       number: "3",
-      label: "Languages",
-      description: "Spanish, English, Dutch fluency"
+      label: "Idiomas",
+      description: "Español, Inglés, Guaraní"
     }
   ],
   

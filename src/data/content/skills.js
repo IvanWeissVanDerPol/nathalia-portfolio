@@ -2,8 +2,8 @@
 export const skillsData = {
   // Section configuration
   sectionId: "skills",
-  title: "Skills & Proficiency",
-  subtitle: "Technical expertise across development, quality assurance, and data engineering",
+  title: "Competencias y Habilidades",
+  subtitle: "Experiencia profesional en recursos humanos, procesos organizacionales y herramientas especializadas",
   
   // Layout configuration
   layout: {
@@ -15,166 +15,121 @@ export const skillsData = {
   // Skills with proficiency levels (matching profile percentages)
   skillsets: [
     {
-      name: "Python Development",
-      level: 98,
-      description: "Expert-level Python development across multiple domains",
-      yearsExperience: "6+ years",
-      proficiencyLevel: "Expert",
-      icon: "fab fa-python",
-      techColor: "#3776ab",
-      hoverDescription: "Advanced Python development for automation, data processing, web development, and machine learning applications",
-      tags: [
-        "Python",
-        "Pandas",
-        "Selenium",
-        "PySpark",
-        "NumPy",
-        "Matplotlib"
-      ]
-    },
-    {
-      name: "QA Automation",
+      name: "Reclutamiento y Selección",
       level: 95,
-      description: "Comprehensive test automation and quality assurance expertise",
-      yearsExperience: "5+ years",
-      proficiencyLevel: "Expert",
-      icon: "fas fa-bug",
+      description: "Experiencia avanzada en procesos completos de reclutamiento y selección de personal",
+      yearsExperience: "2+ años",
+      proficiencyLevel: "Avanzado",
+      icon: "fas fa-users",
+      techColor: "#3776ab",
+      hoverDescription: "Gestión completa de procesos de reclutamiento desde levantamiento de perfil hasta feedback final, optimizando etapas y garantizando experiencia positiva",
+      tags: [
+        "Herramientas de Selección",
+        "Herramientas de Sourcing",
+        "LinkedIn Recruiter",
+        "SuccessFactors",
+        "Evaluación de Candidatos",
+        "Entrevistas Estructuradas"
+      ]
+    },
+    {
+      name: "Gestión de Procesos",
+      level: 90,
+      description: "Especialización en optimización y gestión de procesos organizacionales",
+      yearsExperience: "4+ años",
+      proficiencyLevel: "Avanzado",
+      icon: "fas fa-cogs",
       techColor: "#ff6b6b",
-      hoverDescription: "End-to-end test automation, API testing, mobile testing, and CI/CD integration with modern frameworks",
+      hoverDescription: "Experiencia en gestión de procesos comerciales, mejora continua, coordinación de tareas simultáneas y optimización de workflows",
       tags: [
-        "Selenium",
-        "PyTest",
-        "Jenkins",
-        "TestRail",
-        "Selenium WebDriver",
-        "Hexawise",
-        "QTest",
-        "Test Automation",
-        "BDD (Cucumber)",
-        "Applitools",
-        "Cypress",
-        "WebdriverIO"
+        "Mejora Continua",
+        "Optimización de Procesos",
+        "Gestión Simultánea",
+        "Control de Calidad",
+        "Protocolos de Calidad",
+        "Gestión Logística",
+        "Análisis de Procesos",
+        "Eficiencia Operacional"
       ]
     },
     {
-      name: "Data Engineering",
-      level: 90,
-      description: "Building scalable data pipelines and processing systems",
-      yearsExperience: "3+ years",
-      proficiencyLevel: "Advanced",
-      icon: "fas fa-database",
-      techColor: "#4dabf7",
-      hoverDescription: "Design and implementation of large-scale data processing systems, ETL pipelines, and real-time analytics",
-      tags: [
-        "Airflow",
-        "Spark",
-        "Delta Lake",
-        "Databricks",
-        "Apache Spark",
-        "Spark SQL",
-        "Azure DevOps",
-        "Data Pipelines",
-        "ETL",
-        "Big Data"
-      ]
-    },
-    {
-      name: "Software Development",
-      level: 90,
-      description: "Full-stack development with focus on backend systems",
-      yearsExperience: "6+ years",
-      proficiencyLevel: "Advanced",
-      icon: "fas fa-code",
-      techColor: "#28a745",
-      hoverDescription: "Full-stack development expertise with strong focus on backend architecture, API development, and system design",
-      tags: [
-        "Python",
-        "Java",
-        "Git",
-        "RESTful APIs",
-        "Postman",
-        "API Automation",
-        "Jenkins",
-        "CI/CD",
-        "Azure DevOps"
-      ]
-    },
-    {
-      name: "Web Technologies",
+      name: "Atención al Cliente",
       level: 85,
-      description: "Modern web development and responsive design",
-      yearsExperience: "4+ years",
-      proficiencyLevel: "Advanced",
-      icon: "fas fa-globe",
-      techColor: "#fd7e14",
-      hoverDescription: "Modern web development using HTML5, CSS3, JavaScript, and frameworks like React for creating responsive and interactive user interfaces",
+      description: "Experiencia sólida en atención al cliente y experiencia del usuario",
+      yearsExperience: "4+ años",
+      proficiencyLevel: "Avanzado",
+      icon: "fas fa-handshake",
+      techColor: "#4dabf7",
+      hoverDescription: "Gestión integral de atención al cliente, ventas, postventa y mejora de la experiencia del usuario en procesos comerciales",
       tags: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Flask",
-        "HTML5",
-        "CSS3",
-        "Responsive Design",
-        "Web Development",
-        "Bootstrap"
+        "Experiencia del Cliente",
+        "Atención Postventa",
+        "Gestión de Ventas",
+        "Resolución de Conflictos",
+        "Comunicación Efectiva",
+        "Satisfacción del Cliente",
+        "Procesos Comerciales",
+        "Calidad de Servicio"
       ]
     },
     {
-      name: "Database Management",
+      name: "Herramientas Especializadas",
       level: 80,
-      description: "Database design, optimization, and management",
-      yearsExperience: "4+ years",
-      proficiencyLevel: "Advanced",
-      icon: "fas fa-server",
+      description: "Manejo intermedio de herramientas de recursos humanos y sistemas empresariales",
+      yearsExperience: "2+ años",
+      proficiencyLevel: "Intermedio",
+      icon: "fas fa-tools",
+      techColor: "#28a745",
+      hoverDescription: "Experiencia práctica con herramientas especializadas en reclutamiento, sistemas de gestión empresarial y análisis de datos",
+      tags: [
+        "Excel Intermedio",
+        "LinkedIn Recruiter Básico",
+        "SuccessFactors Básico",
+        "SAP Básico",
+        "Herramientas de Sourcing",
+        "Sistemas de Gestión",
+        "Análisis de Datos",
+        "Reportes"
+      ]
+    },
+    {
+      name: "Habilidades Blandas",
+      level: 95,
+      description: "Competencias interpersonales y de liderazgo desarrolladas a través de la experiencia profesional",
+      yearsExperience: "4+ años",
+      proficiencyLevel: "Avanzado",
+      icon: "fas fa-heart",
+      techColor: "#fd7e14",
+      hoverDescription: "Habilidades sólidas en trabajo en equipo, comunicación efectiva, proactividad, resiliencia y adaptación al cambio",
+      tags: [
+        "Proactividad",
+        "Resiliencia",
+        "Colaboración",
+        "Comunicación Efectiva",
+        "Trabajo en Equipo",
+        "Adaptación",
+        "Orientación a Resultados",
+        "Orientación al Detalle"
+      ]
+    },
+    {
+      name: "Gestión de SLA y Deadlines",
+      level: 90,
+      description: "Experiencia en cumplimiento de acuerdos de nivel de servicio y gestión de plazos",
+      yearsExperience: "3+ años",
+      proficiencyLevel: "Avanzado",
+      icon: "fas fa-clock",
       techColor: "#6c757d",
-      hoverDescription: "Comprehensive database management including SQL optimization, NoSQL databases, data modeling, and cloud-based data solutions",
+      hoverDescription: "Especialización en gestión de SLA, cumplimiento de deadlines, planificación estratégica y seguimiento de indicadores de desempeño",
       tags: [
-        "MongoDB",
-        "SQL",
-        "Database Design",
-        "Query Optimization",
-        "Databricks",
-        "Relational Databases",
-        "Azure Data Lake",
-        "Apache Spark",
-        "PySpark"
-      ]
-    },
-    {
-      name: "AI & Automation Tools",
-      level: 75,
-      description: "Leveraging AI for automation and efficiency",
-      yearsExperience: "2+ years",
-      proficiencyLevel: "Intermediate",
-      icon: "fas fa-brain",
-      techColor: "#e83e8c",
-      hoverDescription: "Implementation of AI-powered automation solutions, prompt engineering for LLMs, and building intelligent workflow automation systems",
-      tags: [
-        "Prompt Engineering",
-        "Automation Scripts",
-        "AI Agents",
-        "OpenAI"
-      ]
-    },
-    {
-      name: "Project Management & DevOps",
-      level: 70,
-      description: "Agile methodologies and DevOps practices",
-      yearsExperience: "5+ years",
-      proficiencyLevel: "Intermediate",
-      icon: "fas fa-project-diagram",
-      techColor: "#20c997",
-      hoverDescription: "Project leadership using Agile methodologies, DevOps pipeline implementation, and team coordination across multiple projects and stakeholders",
-      tags: [
-        "JIRA",
-        "CI/CD Practices",
-        "Agile Methodologies",
-        "Scrum",
-        "Kanban",
-        "Version Control",
-        "DevOps Tools"
+        "Gestión de SLA",
+        "Cumplimiento de Deadlines",
+        "Planificación Estratégica",
+        "KPIs",
+        "Seguimiento de Procesos",
+        "Gestión del Tiempo",
+        "Priorization",
+        "Eficiencia"
       ]
     }
   ],
@@ -182,118 +137,118 @@ export const skillsData = {
   // Additional skills categorization for AboutUnified component
   categories: [
     {
-      name: "Programming Languages",
+      name: "Reclutamiento y Selección",
       skills: [
         {
-          name: "Python",
-          icon: "fab fa-python",
-          proficiency: "Expert",
-          yearsExperience: "6+ years",
-          description: "Expert-level Python development for automation, data processing, and backend systems",
-          specialties: ["Data Processing", "Automation", "API Development", "Testing"]
+          name: "Herramientas de Selección",
+          icon: "fas fa-users",
+          proficiency: "Intermedio",
+          yearsExperience: "2+ años",
+          description: "Uso de herramientas especializadas para procesos de selección de personal",
+          specialties: ["Evaluación de Candidatos", "Filtros de Selección", "Entrevistas Estructuradas", "Assessment"]
         },
         {
-          name: "Java",
-          icon: "fab fa-java",
-          proficiency: "Advanced",
-          yearsExperience: "3+ years",
-          description: "Backend development with Spring framework and enterprise applications",
-          specialties: ["Spring Framework", "REST APIs", "Enterprise Development"]
+          name: "Herramientas de Sourcing",
+          icon: "fas fa-search",
+          proficiency: "Intermedio",
+          yearsExperience: "2+ años",
+          description: "Identificación y atracción de talento usando múltiples canales",
+          specialties: ["Búsqueda Activa", "Búsqueda Pasiva", "Redes Profesionales", "Headhunting"]
         },
         {
-          name: "JavaScript",
-          icon: "fab fa-js-square",
-          proficiency: "Intermediate",
-          yearsExperience: "2+ years",
-          description: "Frontend development and test automation with modern JS frameworks",
-          specialties: ["Frontend Development", "Test Automation", "Node.js"]
+          name: "LinkedIn Recruiter",
+          icon: "fab fa-linkedin",
+          proficiency: "Básico",
+          yearsExperience: "1+ año",
+          description: "Uso de LinkedIn Recruiter para sourcing y reclutamiento",
+          specialties: ["Sourcing Digital", "Networking Profesional", "Talent Pipeline", "InMail"]
         }
       ]
     },
     {
-      name: "Data Engineering & Analytics",
+      name: "Gestión de Procesos",
       skills: [
         {
-          name: "Apache Spark",
-          icon: "fas fa-fire",
-          proficiency: "Advanced",
-          yearsExperience: "2+ years",
-          description: "Large-scale data processing and distributed computing with PySpark",
-          specialties: ["PySpark", "Spark SQL", "Data Pipelines", "ETL"]
+          name: "Análisis de Procesos",
+          icon: "fas fa-chart-line",
+          proficiency: "Avanzado",
+          yearsExperience: "3+ años",
+          description: "Análisis y optimización de procesos organizacionales",
+          specialties: ["Mejora Continua", "Eficiencia Operacional", "Mapeo de Procesos", "KPIs"]
         },
         {
-          name: "Databricks",
-          icon: "fas fa-cloud",
-          proficiency: "Advanced",
-          yearsExperience: "2+ years",
-          description: "Cloud-based data engineering and analytics platform expertise",
-          specialties: ["Data Processing", "ML Integration", "Collaborative Analytics"]
-        },
-        {
-          name: "ETL Pipelines",
-          icon: "fas fa-cogs",
-          proficiency: "Advanced",
-          yearsExperience: "3+ years",
-          description: "Design and implementation of Extract, Transform, Load workflows",
-          specialties: ["Data Transformation", "Pipeline Automation", "Scheduling"]
-        }
-      ]
-    },
-    {
-      name: "Quality Assurance & Testing",
-      skills: [
-        {
-          name: "Test Automation",
-          icon: "fas fa-robot",
-          proficiency: "Expert",
-          yearsExperience: "5+ years",
-          description: "Comprehensive test automation frameworks and strategies",
-          specialties: ["Selenium", "PyTest", "API Testing", "CI/CD Integration"]
-        },
-        {
-          name: "Quality Assurance",
+          name: "Control de Calidad",
           icon: "fas fa-check-circle",
-          proficiency: "Expert",
-          yearsExperience: "6+ years",
-          description: "Manual and automated testing, compliance, and quality standards",
-          specialties: ["FDA Compliance", "Healthcare Testing", "Manual Testing"]
+          proficiency: "Avanzado",
+          yearsExperience: "2+ años",
+          description: "Implementación y seguimiento de protocolos de calidad",
+          specialties: ["Protocolos de Calidad", "Auditorías", "Cumplimiento", "Documentación"]
         },
         {
-          name: "API Testing",
-          icon: "fas fa-exchange-alt",
-          proficiency: "Advanced",
-          yearsExperience: "4+ years",
-          description: "RESTful API testing and validation using various tools",
-          specialties: ["Postman", "REST APIs", "JSON Validation", "Performance Testing"]
+          name: "Gestión de SLA",
+          icon: "fas fa-clock",
+          proficiency: "Avanzado",
+          yearsExperience: "3+ años",
+          description: "Gestión de acuerdos de nivel de servicio y deadlines",
+          specialties: ["Cumplimiento de Deadlines", "Indicadores de Desempeño", "Seguimiento", "Planificación"]
         }
       ]
     },
     {
-      name: "Tools & Platforms",
+      name: "Herramientas Empresariales",
       skills: [
         {
-          name: "Power Platform",
-          icon: "fas fa-bolt",
-          proficiency: "Advanced",
-          yearsExperience: "1+ years",
-          description: "Power Apps, Power Automate, and Power BI development",
-          specialties: ["Power Apps", "SharePoint Integration", "Workflow Automation"]
+          name: "Excel",
+          icon: "fas fa-file-excel",
+          proficiency: "Intermedio",
+          yearsExperience: "3+ años",
+          description: "Análisis de datos y reportes usando Excel avanzado",
+          specialties: ["Fórmulas Avanzadas", "Tablas Dinámicas", "Gráficos", "Automatización"]
         },
         {
-          name: "Jenkins",
-          icon: "fas fa-cog",
-          proficiency: "Intermediate",
-          yearsExperience: "3+ years",
-          description: "CI/CD pipeline automation and deployment orchestration",
-          specialties: ["Pipeline Configuration", "Automated Testing", "Deployment"]
+          name: "SuccessFactors",
+          icon: "fas fa-users-cog",
+          proficiency: "Básico",
+          yearsExperience: "1+ año",
+          description: "Sistema de gestión de recursos humanos de SAP",
+          specialties: ["Gestión de Talento", "Evaluaciones", "Onboarding", "Reportes HR"]
         },
         {
-          name: "Git",
-          icon: "fab fa-git-alt",
-          proficiency: "Advanced",
-          yearsExperience: "6+ years",
-          description: "Version control and collaborative development workflows",
-          specialties: ["Branching Strategies", "Code Review", "Team Collaboration"]
+          name: "SAP",
+          icon: "fas fa-database",
+          proficiency: "Básico",
+          yearsExperience: "1+ año",
+          description: "Sistema empresarial para gestión de recursos",
+          specialties: ["Módulos HR", "Consultas Básicas", "Reportes", "Navegación"]
+        }
+      ]
+    },
+    {
+      name: "Habilidades Interpersonales",
+      skills: [
+        {
+          name: "Comunicación Efectiva",
+          icon: "fas fa-comments",
+          proficiency: "Avanzado",
+          yearsExperience: "4+ años",
+          description: "Comunicación clara y asertiva con diferentes audiencias",
+          specialties: ["Presentaciones", "Entrevistas", "Negociación", "Feedback"]
+        },
+        {
+          name: "Trabajo en Equipo",
+          icon: "fas fa-users",
+          proficiency: "Avanzado",
+          yearsExperience: "4+ años",
+          description: "Colaboración efectiva con equipos multidisciplinarios",
+          specialties: ["Liderazgo", "Colaboración", "Resolución de Conflictos", "Adaptabilidad"]
+        },
+        {
+          name: "Orientación a Resultados",
+          icon: "fas fa-target",
+          proficiency: "Avanzado",
+          yearsExperience: "4+ años",
+          description: "Enfoque en el logro de objetivos y metas organizacionales",
+          specialties: ["Planificación Estratégica", "Seguimiento", "Proactividad", "Mejora Continua"]
         }
       ]
     }
@@ -301,10 +256,10 @@ export const skillsData = {
   
   // Skill statistics
   statistics: {
-    totalSkills: 50,
-    expertLevel: 2,
-    advancedLevel: 3,
-    intermediateLevel: 3,
-    certifications: 5
+    totalSkills: 15,
+    expertLevel: 0,
+    advancedLevel: 4,
+    intermediateLevel: 2,
+    certifications: 0
   }
 };

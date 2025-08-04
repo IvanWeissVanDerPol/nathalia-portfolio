@@ -1,45 +1,48 @@
-// Personal information data (extracted from current website)
+// Personal information data
 export const personalData = {
   // Basic information
-  name: "Ivan Weiss Van Der Pol",
-  role: "Data Engineer | AI Enthusiast | Python Developer", 
-  description: "Data Engineer specializing in Python development and AI technologies, with a strong background in data processing and analytics.",
+  name: "Lourdes Nathalia Rios Delvalle",
+  role: "Comercio Internacional | Psicología | Analista de Procesos", 
+  description: "Licenciada en Comercio Internacional y estudiante de tercer año de Psicología. Me destaco por mi capacidad de adaptación, compromiso y entusiasmo por el aprendizaje continuo.",
   
   // Contact information
-  email: "weissvanderpol.ivan@gmail.com",
-  phone: "+595 0981324569",
+  email: "nathalia.rios@15@gmail.com",
+  phone: "0971-758658",
   timezone: "America/Asuncion",
-  citizenship: "Paraguayan and Dutch",
-  website: "https://ivanweissvanderpol.github.io/",
-  linkedin: "ivanweissvanderpol",
-  github: "ivanweissvanderpol",
-  resume: "/src/data/PersonalData/ResumeIvanWeiss-2025-05.pdf",
+  citizenship: "Paraguayan",
+  address: "General Miranda 2464",
+  birthDate: "15/12/1991",
+  website: "https://nath.github.io/",
+  linkedin: "nathalia-rios",
+  github: "nath",
+  resume: "/src/data/PersonalData/CV-Nathalia-Rios.pdf",
   
   // Avatar and favicon
-  avatar: "ProfilePicIvan.jpg",
+  avatar: "ProfilePicNathalia.jpg",
   favicon: "PageIcon.png",
   
   // Languages
   languages: [
     {
-      idiom: "Spanish",
-      level: "Native"
+      idiom: "Español",
+      level: "Nativo"
     },
     {
-      idiom: "English", 
-      level: "Fluent"
+      idiom: "Inglés", 
+      level: "Básico"
     },
     {
-      idiom: "Dutch",
-      level: "Fluent"
+      idiom: "Guaraní",
+      level: "Básico"
     }
   ],
   
   // Professional focus
   interests: [
-    "Data Engineering",
-    "Artificial Intelligence",
-    "Python Development",
-    "Machine Learning"
+    "Comercio Internacional",
+    "Psicología",
+    "Análisis de Procesos",
+    "Recursos Humanos",
+    "Reclutamiento y Selección"
   ]
 }; 

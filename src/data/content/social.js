@@ -4,56 +4,49 @@ export const socialLinks = {
   primary: [
     {
       name: "Email",
-      url: "mailto:weissvanderpol.ivan@gmail.com",
+      url: "mailto:nathalia.rios@15@gmail.com",
       icon: "fa-envelope",
       label: "Email me",
-      username: "weissvanderpol.ivan"
-    },
-    {
-      name: "GitHub",
-      url: "https://github.com/ivanweissvanderpol",
-      icon: "fa-github",
-      label: "Github",
-      username: "ivanweissvanderpol"
+      username: "nathalia.rios@15"
     },
     {
       name: "LinkedIn", 
-      url: "https://www.linkedin.com/in/ivanweissvanderpol/",
+      url: "https://www.linkedin.com/in/nathalia-rios/",
       icon: "fa-linkedin-in",
       label: "LinkedIn",
-      username: "ivanweissvanderpol"
+      username: "nathalia-rios"
     }
   ],
   
   // Complete social links (used in contact/footer)
   all: [
     {
-      name: "GitHub",
-      url: "https://github.com/ivanweissvanderpol",
-      icon: "fa-github",
-      label: "Github",
-      username: "ivanweissvanderpol"
-    },
-    {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/ivanweissvanderpol/",
+      url: "https://www.linkedin.com/in/nathalia-rios/",
       icon: "fa-linkedin-in", 
       label: "LinkedIn",
-      username: "ivanweissvanderpol"
+      username: "nathalia-rios"
+    },
+    {
+      name: "Email",
+      url: "mailto:nathalia.rios@15@gmail.com",
+      icon: "fa-envelope",
+      label: "Email",
+      username: "nathalia.rios@15"
     },
     {
       name: "Website",
-      url: "https://ivanweissvanderpol.github.io/",
+      url: "https://nath.github.io/",
       icon: "fa-globe",
       label: "Website",
-      username: "ivanweissvanderpol"
+      username: "nath"
     },
     {
-      name: "Resume",
-      url: "/src/data/PersonalData/ResumeIvanWeiss-2025-05.pdf",
+      name: "CV",
+      url: "/src/data/PersonalData/CV-Nathalia-Rios.pdf",
       icon: "fa-file-pdf",
-      label: "Resume",
-      username: "IvanWeiss-Resume"
+      label: "CV",
+      username: "Nathalia-Rios-CV"
     }
   ]
 }; 

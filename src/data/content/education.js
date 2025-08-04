@@ -2,8 +2,8 @@
 export const educationData = {
   // Section configuration
   sectionId: "education",
-  title: "Education",
-  subtitle: "My academic journey and qualifications",
+  title: "Formación Académica",
+  subtitle: "Mi trayectoria académica y cualificaciones",
   
   // Layout configuration
   layout: {
@@ -15,67 +15,68 @@ export const educationData = {
   // Education entries (ordered by most recent first)
   institutions: [
     {
-      id: "fpuna-bachelor",
-      institution: "Facultad Politécnica de la Universidad Nacional de Asunción (FP-UNA)",
-      shortName: "FP-UNA",
-      degree: "Bachelor's Degree in Computer Science",
-      duration: "2018 - Present",
-      location: "Asunción, Paraguay",
+      id: "universidad-del-sol-psicologia",
+      institution: "Universidad del Sol",
+      shortName: "Universidad del Sol",
+      degree: "Licenciatura en Psicología",
+      duration: "2023 - 2027",
+      location: "Paraguay",
       status: "ongoing",
       website: "#",
-      logo: "/src/data/Logo/FPuna_logo.jpg",
+      logo: "/src/data/Logo/universidad_del_sol_logo.png",
       
-      description: "Comprehensive program focused on both theoretical foundations and practical applications in computer science, covering a wide range of subjects from algorithms to systems design.",
+      description: "Programa integral enfocado en la comprensión del comportamiento humano, procesos mentales y aplicaciones prácticas en ámbitos organizacionales y sociales.",
       
       highlights: [
-        "Specialized in Software Engineering, Machine Learning, Data Security, and Database Systems",
-        "Achieved top placements in national programming competitions",
-        "Paraguay National Programming Competition (2022)",
-        "ETYC Programming Competition (2019)",
-        "Developed leadership skills through student councils and mentoring",
-        "Organized university-level tech events"
+        "Estudiante de tercer año con enfoque en Psicología Organizacional",
+        "Especialización en procesos de selección y recursos humanos",
+        "Aplicación práctica en proyectos de reclutamiento",
+        "Desarrollo de habilidades en evaluación psicológica",
+        "Participación en proyectos de investigación social"
       ],
       
       coursework: [
-        "Algorithms & Data Structures",
-        "Operating Systems", 
-        "Web Development",
-        "Compiler Design",
-        "Network Security",
-        "Machine Learning",
-        "Database Systems",
-        "Software Engineering"
+        "Psicología Organizacional",
+        "Recursos Humanos", 
+        "Evaluación Psicológica",
+        "Psicología Social",
+        "Métodos de Investigación",
+        "Selección de Personal",
+        "Comportamiento Organizacional",
+        "Psicología Clínica"
       ]
     },
     
     {
-      id: "wichita-exchange",
-      institution: "Wichita State University",
-      shortName: "WSU",
-      degree: "Study Abroad Program in Computer Science",
-      duration: "January 2023 - May 2023",
-      location: "Kansas, USA",
+      id: "universidad-autonoma-comercio",
+      institution: "Universidad Autónoma de Asunción",
+      shortName: "UAA",
+      degree: "Licenciatura en Comercio Internacional",
+      duration: "2010 - 2017",
+      location: "Asunción, Paraguay",
       status: "completed",
       website: "#",
-      logo: "/src/data/Logo/wsu_logo.png",
+      logo: "/src/data/Logo/universidad_autonoma_logo.png",
       
-      description: "Selected for an international exchange program to broaden technical knowledge and gain exposure to global perspectives in computer science and project management.",
+      description: "Programa integral enfocado en comercio internacional, negocios globales y gestión empresarial con énfasis en mercados internacionales y relaciones comerciales.",
       
       highlights: [
-        "Focused on Negotiation, Strategic Marketing, Entrepreneurship, and Technical Communication",
-        "Led development of 'Botanic Buddy' - an AI-powered reforestation rover",
-        "Presented at entrepreneurship competition focusing on environmental sustainability",
-        "Enhanced English proficiency and cross-cultural communication skills",
-        "Traveled across tech hubs: San Francisco, Los Angeles, Kansas, and Colorado"
+        "Especialización en Comercio Internacional y Negocios Globales",
+        "Desarrollo de habilidades en negociación y relaciones comerciales",
+        "Formación en gestión empresarial y análisis de mercados",
+        "Conocimientos en regulaciones comerciales internacionales",
+        "Base sólida para transición a áreas de recursos humanos"
       ],
       
       coursework: [
-        "Negotiation",
-        "Strategic Marketing",
-        "Entrepreneurship",
-        "Technical Communication",
-        "Business Strategy",
-        "Software Development"
+        "Comercio Internacional",
+        "Negocios Globales",
+        "Gestión Empresarial",
+        "Análisis de Mercados",
+        "Negociación Comercial",
+        "Economía Internacional",
+        "Logística Internacional",
+        "Finanzas Corporativas"
       ]
     }
   ],
@@ -83,15 +84,15 @@ export const educationData = {
   // Academic projects
   academicProjects: [
     {
-      title: "Botanic Buddy - AI-Powered Reforestation Rover",
-      institution: "Wichita State University",
-      description: "AI-powered autonomous rover designed for environmental sustainability through automated reforestation",
-      technologies: ["Artificial Intelligence", "Robotics", "Python", "Computer Vision"],
+      title: "Proyectos de Investigación en Psicología Social",
+      institution: "Universidad del Sol",
+      description: "Participación en proyectos de investigación enfocados en comportamiento organizacional y procesos de selección de personal",
+      technologies: ["Métodos de Investigación", "Análisis Estadístico", "Evaluación Psicológica", "Herramientas de Selección"],
       highlights: [
-        "Led interdisciplinary team development",
-        "Presented at entrepreneurship competition",
-        "Combined software engineering with environmental science",
-        "Focused on automation for sustainability"
+        "Aplicación práctica de conocimientos teóricos",
+        "Desarrollo de habilidades de investigación",
+        "Enfoque en psicología organizacional",
+        "Contribución a proyectos sociales y educativos"
       ]
     }
   ],
@@ -99,43 +100,43 @@ export const educationData = {
   // Academic achievements
   achievements: [
     {
-      title: "Paraguay National Programming Competition",
-      year: "2022",
-      placement: "Top Placement",
-      description: "Achieved top placement in national-level programming competition"
+      title: "Graduación en Comercio Internacional",
+      year: "2017",
+      placement: "Licenciada",
+      description: "Graduación exitosa con especialización en negocios internacionales"
     },
     {
-      title: "ETYC Programming Competition", 
-      year: "2019",
-      placement: "Top Placement",
-      description: "Early career achievement in programming competition"
+      title: "Estudiante Destacada en Psicología", 
+      year: "2023-presente",
+      placement: "Tercer Año",
+      description: "Progreso académico exitoso con enfoque en psicología organizacional"
     }
   ],
   
   // Academic statistics
   statistics: {
+    degreesCompleted: 1,
     degreesInProgress: 1,
-    exchangePrograms: 1,
-    competitionsWon: 2,
-    yearsOfStudy: 6,
-    specializations: 4
+    specializations: 2,
+    yearsOfStudy: 10,
+    practicalProjects: 3
   },
   
   // Learning goals
   learningGoals: [
-    "Advanced Data Engineering techniques",
-    "Cloud Architecture and Infrastructure",
-    "Machine Learning and AI applications",
-    "Big Data processing frameworks",
-    "DevOps and automation",
-    "Enterprise software architecture"
+    "Especialización avanzada en Psicología Organizacional",
+    "Certificaciones en Recursos Humanos",
+    "Técnicas avanzadas de reclutamiento y selección",
+    "Herramientas digitales para HR",
+    "Metodologías de evaluación psicológica",
+    "Gestión del talento y desarrollo organizacional"
   ],
   
   // Call to action
   callToAction: {
-    title: "Academic Excellence",
-    description: "My educational journey has provided me with a strong foundation in computer science theory and practical skills, enhanced by international exposure and competitive achievements.",
-    buttonText: "View Certifications",
-    buttonLink: "#certifications"
+    title: "Excelencia Académica",
+    description: "Mi trayectoria educativa me ha proporcionado una base sólida en comercio internacional y psicología, combinando habilidades empresariales con comprensión del comportamiento humano.",
+    buttonText: "Ver Habilidades",
+    buttonLink: "#skills"
   }
 };

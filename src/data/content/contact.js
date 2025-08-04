@@ -1,4 +1,4 @@
-// Contact section data (extracted from current Contact component)
+// Contact section data
 export const contactData = {
   // Section configuration
   sectionId: "contact",
@@ -6,9 +6,9 @@ export const contactData = {
   containerClass: "container medium",
   
   // Contact information
-  email: "weissvanderpol.ivan@gmail.com",
-  phone: "+595 0981324569",
-  location: "Asunción, Paraguay (Available for Remote Work Worldwide)",
+  email: "nathalia.rios@15@gmail.com",
+  phone: "0971-758658",
+  location: "General Miranda 2464, Asunción, Paraguay",
   timezone: {
     name: "Paraguay Time",
     code: "PYT",
@@ -19,49 +19,49 @@ export const contactData = {
     start: "08:00",
     end: "18:00",
     timezone: "America/Asuncion",
-    availability: "Monday - Friday",
-    note: "Flexible hours for international collaboration"
+    availability: "Lunes - Viernes",
+    note: "Disponible para trabajo freelance y colaboración"
   },
-  languages: ["Spanish (Native)", "English (Fluent)", "Dutch (Fluent)"],
+  languages: ["Español (Nativo)", "Inglés (Básico)", "Guaraní (Básico)"],
   
   // Text content
-  buttonText: "Contact",
-  title: "Find me on ...",
+  buttonText: "Contacto",
+  title: "Encóntrame en ...",
   
   // Social links (complete list for contact section)
   socialLinks: [
     {
-      name: "GitHub",
-      url: "https://github.com/ivanweissvanderpol",
-      icon: "fa-github",
-      label: "Github"
-    },
-    {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/ivanweissvanderpol/",
+      url: "https://www.linkedin.com/in/nathalia-rios/",
       icon: "fa-linkedin-in", 
       label: "LinkedIn"
     },
     {
+      name: "Email",
+      url: "mailto:nathalia.rios@15@gmail.com",
+      icon: "fa-envelope",
+      label: "Email"
+    },
+    {
       name: "Website",
-      url: "https://ivanweissvanderpol.github.io/",
+      url: "https://nath.github.io/",
       icon: "fa-globe",
       label: "Website"
     },
     {
-      name: "Resume",
-      url: "/src/data/PersonalData/ResumeIvanWeiss-2025-05.pdf",
+      name: "CV",
+      url: "/src/data/PersonalData/CV-Nathalia-Rios.pdf",
       icon: "fa-file-pdf",
-      label: "Resume"
+      label: "CV"
     }
   ],
   
   // Footer information
   footer: {
-    copyright: "&copy; Ivan Weiss Van Der Pol. All rights reserved.",
+    copyright: "&copy; Lourdes Nathalia Rios Delvalle. Todos los derechos reservados.",
     attribution: {
-      text: "Designed with ❤️ by",
-      linkText: "Ivan Weiss",
+      text: "Diseñado con ❤️ por",
+      linkText: "Nathalia Rios",
       url: "#"
     }
   }
