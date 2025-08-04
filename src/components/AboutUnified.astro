@@ -1,6 +1,6 @@
 ---
 // Unified About page component with side navigation
-import { aboutData, skillsData, workData, certificationsData, contactData } from '../data/index.js';
+import { aboutData, skillsData, workData, educationData, contactData } from '../data/index.js';
 ---
 
 <div class="about-unified">
@@ -18,7 +18,7 @@ import { aboutData, skillsData, workData, certificationsData, contactData } from
           <li><a href="#summary" data-nav="summary">Summary</a></li>
           <li><a href="#experience" data-nav="experience">Experience</a></li>
           <li><a href="#skills" data-nav="skills">Technical Skills</a></li>
-          <li><a href="#certifications" data-nav="certifications">Certifications</a></li>
+          <li><a href="#education" data-nav="education">Education</a></li>
           <li><a href="#contact" data-nav="contact">Contact</a></li>
         </ul>
       </nav>
@@ -29,7 +29,7 @@ import { aboutData, skillsData, workData, certificationsData, contactData } from
   <main class="about-content">
     <header class="about-header">
       <h1>About Me</h1>
-      <p class="about-subtitle">Data Engineer & Computer Science Student</p>
+      <p class="about-subtitle">Comercio Internacional | Psicología | Analista de Procesos</p>
     </header>
 
     <!-- Summary Section -->
@@ -281,73 +281,76 @@ import { aboutData, skillsData, workData, certificationsData, contactData } from
       </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="content-section">
-      <h2>Certifications & Credentials</h2>
-      <div class="certifications-grid">
-        {certificationsData.certifications.map(cert => (
-          <div class="certification-card">
-            <div class="cert-header">
-              <div class="cert-icon">
-                {cert.logo ? (
-                  <div class="cert-logo">
-                    <img src={cert.logo} alt={`${cert.issuer} logo`} loading="lazy" />
+    <!-- Education Section -->
+    <section id="education" class="content-section">
+      <h2>Formación Académica</h2>
+      <div class="education-timeline">
+        {educationData.institutions.map(institution => (
+          <div class="education-card">
+            <div class="edu-timeline-marker">
+              <div class={`edu-status-dot ${institution.status}`}></div>
+            </div>
+            <div class="edu-content">
+              <div class="edu-header">
+                <div class="edu-info">
+                  <h4>{institution.degree}</h4>
+                  <p class="edu-institution">{institution.institution}</p>
+                  <p class="edu-duration">{institution.duration}</p>
+                  <span class={`edu-status ${institution.status}`}>
+                    {institution.status === 'ongoing' ? 'En Curso' : 'Completada'}
+                  </span>
+                </div>
+              </div>
+              <p class="edu-description">{institution.description}</p>
+              
+              <!-- Highlights -->
+              {institution.highlights && institution.highlights.length > 0 && (
+                <div class="edu-highlights">
+                  <h5>Aspectos Destacados:</h5>
+                  <ul>
+                    {institution.highlights.map(highlight => (
+                      <li>{highlight}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              
+              <!-- Coursework -->
+              {institution.coursework && institution.coursework.length > 0 && (
+                <div class="edu-coursework">
+                  <h5>Materias Relevantes:</h5>
+                  <div class="coursework-tags">
+                    {institution.coursework.map(course => (
+                      <span class="course-tag">{course}</span>
+                    ))}
                   </div>
-                ) : (
-                  <i class={cert.icon}></i>
-                )}
-              </div>
-              <div class="cert-info">
-                <h4>{cert.title}</h4>
-                <p class="cert-issuer">{cert.issuer}</p>
-                <p class="cert-date">{cert.issueDate}</p>
-              </div>
-              <div class={`cert-badge ${cert.badgeColor}`}>{cert.category}</div>
+                </div>
+              )}
             </div>
-            <p class="cert-description">{cert.description}</p>
-            <div class="cert-skills">
-              {cert.skills.map(skill => (
-                <span class="skill-tag">{skill}</span>
-              ))}
-            </div>
-            {cert.credentialUrl && (
-              <a href={cert.credentialUrl} target="_blank" rel="noopener" class="cert-link">
-                View Credential
-              </a>
-            )}
           </div>
         ))}
       </div>
 
-      <!-- Awards Section -->
-      <div class="awards-section">
-        <h3>Awards & Recognition</h3>
-        <div class="awards-grid">
-          {certificationsData.awards.map(award => (
-            <div class="award-card">
-              <div class="award-icon">
-                {award.logo ? (
-                  <div class="award-logo">
-                    <img src={award.logo} alt={`${award.issuer} logo`} loading="lazy" />
-                  </div>
-                ) : (
-                  <i class={award.icon}></i>
-                )}
-              </div>
-              <div class="award-content">
-                <h4>{award.title}</h4>
-                <p class="award-issuer">{award.issuer}</p>
-                <p class="award-description">{award.description}</p>
-                <ul class="award-achievements">
-                  {award.achievements.map(achievement => (
-                    <li>{achievement}</li>
+      <!-- Academic Projects -->
+      {educationData.academicProjects && educationData.academicProjects.length > 0 && (
+        <div class="academic-projects">
+          <h3>Proyectos Académicos</h3>
+          <div class="projects-grid">
+            {educationData.academicProjects.map(project => (
+              <div class="project-card">
+                <h4>{project.title}</h4>
+                <p class="project-institution">{project.institution}</p>
+                <p class="project-description">{project.description}</p>
+                <div class="project-highlights">
+                  {project.highlights.map(highlight => (
+                    <span class="highlight-tag">{highlight}</span>
                   ))}
-                </ul>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </section>
 
     <!-- Contact Section -->
@@ -2231,6 +2234,240 @@ import { aboutData, skillsData, workData, certificationsData, contactData } from
     .contact-intro {
       font-size: var(--font-base);
       text-align: center;
+    }
+  }
+
+  /* Education Section */
+  .education-timeline {
+    position: relative;
+    padding-left: var(--space-xl);
+  }
+
+  .education-timeline::before {
+    content: '';
+    position: absolute;
+    left: 24px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  }
+
+  .education-card {
+    position: relative;
+    margin-bottom: var(--space-xl);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-lg);
+  }
+
+  .edu-timeline-marker {
+    position: absolute;
+    left: -32px;
+    top: 8px;
+  }
+
+  .edu-status-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid var(--bg-primary);
+  }
+
+  .edu-status-dot.ongoing {
+    background: var(--color-primary);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+  }
+
+  .edu-status-dot.completed {
+    background: var(--color-secondary);
+    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.2);
+  }
+
+  .edu-content {
+    flex: 1;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+  }
+
+  .edu-header {
+    margin-bottom: var(--space-md);
+  }
+
+  .edu-info h4 {
+    color: var(--text-heading);
+    font-size: var(--font-lg);
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+  }
+
+  .edu-institution {
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+  }
+
+  .edu-duration {
+    color: var(--text-muted);
+    font-size: var(--font-sm);
+    margin-bottom: var(--space-sm);
+  }
+
+  .edu-status {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: var(--radius-full);
+    font-size: var(--font-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .edu-status.ongoing {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--color-primary);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+  }
+
+  .edu-status.completed {
+    background: rgba(139, 92, 246, 0.1);
+    color: var(--color-secondary);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+  }
+
+  .edu-description {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--space-md);
+  }
+
+  .edu-highlights,
+  .edu-coursework {
+    margin-top: var(--space-md);
+  }
+
+  .edu-highlights h5,
+  .edu-coursework h5 {
+    color: var(--text-heading);
+    font-size: var(--font-sm);
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .edu-highlights ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .edu-highlights li {
+    color: var(--text-secondary);
+    font-size: var(--font-sm);
+    margin-bottom: var(--space-xs);
+    padding-left: var(--space-md);
+    position: relative;
+  }
+
+  .edu-highlights li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .coursework-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+
+  .course-tag {
+    background: var(--bg-glass);
+    color: var(--text-secondary);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-xs);
+    border: 1px solid var(--border-light);
+  }
+
+  .academic-projects {
+    margin-top: var(--space-2xl);
+  }
+
+  .academic-projects h3 {
+    color: var(--text-heading);
+    font-size: var(--font-xl);
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-lg);
+  }
+
+  .project-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+  }
+
+  .project-card h4 {
+    color: var(--text-heading);
+    font-size: var(--font-lg);
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+  }
+
+  .project-institution {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: var(--font-sm);
+    margin-bottom: var(--space-sm);
+  }
+
+  .project-description {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--space-md);
+  }
+
+  .project-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+
+  .highlight-tag {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--color-primary);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-xs);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+  }
+
+  @media (max-width: 768px) {
+    .education-timeline {
+      padding-left: var(--space-lg);
+    }
+
+    .education-timeline::before {
+      left: 16px;
+    }
+
+    .edu-timeline-marker {
+      left: -24px;
+    }
+
+    .projects-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
